@@ -1,6 +1,6 @@
 <template>
     <div class="detail__item" :class="$route.params.color" v-if="weatherDetail">
-<!--        <router-link :to="{name: 'Main'}">Back</router-link>-->
+        <router-link :to="{name: 'Main'}" class="back__button">Back</router-link>
         <ul class="detail__list">
             <li class="detail__list-item" v-for="(item,index) in weatherDetail.list" :key="index">
                 <h3 class="detail__list-title" v-if="index === 0">{{$route.params.id}}</h3>
