@@ -1,8 +1,17 @@
-import Vue from 'vue'
-import App from './App.vue'
+//___________________________________________________________________________________________________ Vue Init  __//
 
+import Vue from 'vue'
 Vue.config.productionTip = false
 
+//___________________________________________________________________________________________________ App Init And Config  __//
+
+import App from '@/App'
+import router from '@/router'
+import store from '@/store'
+
+/* Vue Instance Config */
 new Vue({
-  render: h => h(App),
+  router: router,
+  store,
+  render: h => h(App)
 }).$mount('#app')

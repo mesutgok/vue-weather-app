@@ -1,0 +1,18 @@
+// Flat UI Colors Mixin
+
+$names: turquoise green-sea emerland nephritis peter-river belize-hole amethyst wisteria wet-asphalt midnight-blue sun-flower orange carrot pumpkin alizarin pomegranate clouds silver concrete asbestos actionbar_background primary primary_darker primary_light activity_color_risicoanalyse_tint2 activity_color_beveiligingsplan;
+$hex: #1abc9c #16a085 #2ecc71 #27ae60 #3498db #2980b9 #9b59b6 #8e44ad #34495e #2c3e50 #f1c40f #f39c12 #e67e22 #d35400 #e74c3c #c0392b #ecf0f1 #bdc3c7 #95a5a6 #7f8c8d #00adef #eb3030 #bd2727 #ef5959 #ffc46e #F9A43F;
+
+@for $i from 1 through length($names) {
+  $class : nth($names, $i);
+  .#{$class} {
+    background-color: nth($hex, $i);
+  }
+}
+
+@for $i from 1 through length($names) {
+  $class : nth($names, $i);
+  .color-#{$class} {
+    color: nth($hex, $i);
+  }
+}
