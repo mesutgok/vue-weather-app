@@ -16,6 +16,7 @@ export default {
     ...mapGetters({
       cityList : 'getCityList'
     })
-  }
+  },
+  created(){}
 }
 </script>
