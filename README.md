@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e2b9823f-d023-4c51-9dba-1c58d6fb57c9/deploy-status)](https://app.netlify.com/sites/vue-weather-app-m/deploys)
+
 # Vue Weather App
 ![weather app](https://i.ibb.co/kyFZBm0/Screen-Shot-2019-04-12-at-02-02-21.png)
 
